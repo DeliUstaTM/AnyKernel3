@@ -775,10 +775,10 @@ patch_ueventd() {
 }
 
 do_osversioncheck() {
-[ "$(file_getprop $home/anykernel.sh supported.os.version)" ] || return 1;
+[ "$(file_getprop $AKHOME/anykernel.sh supported.os.version)" ] || return 1;
 ui_print "-> Checking boot OS Version...";
-local supported_osver=$(file_getprop $home/anykernel.sh supported.os.version);
-local current_osver=$(file_getprop $split_img/header os_version);
+local supported_osver=$(file_getprop $AKHOME/anykernel.sh supported.os.version);
+local current_osver=$(file_getprop $SPLITIMG/header os_version);
 ui_print "-> Current boot OS Version: $current_osver";
 ui_print "-> Supported boot OS Version: $supported_osver";
 
