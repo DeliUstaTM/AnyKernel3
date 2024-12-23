@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=ambatubash69 GKI DUMMY1 KSUDUMMY2 by eraselk
+kernel.string=v1llx GKI DUMMY1 KSUDUMMY2 by eraselk
 do.devicecheck=0
 do.modules=0
 do.systemless=0
@@ -18,7 +18,7 @@ device.name5=
 supported.versions=
 supported.patchlevels=
 supported.vendorpatchlevels=
-supported.os.version=12.0.0
+supported.os.version=
 '; } # end properties
 
 ### AnyKernel install
